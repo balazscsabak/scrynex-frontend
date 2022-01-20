@@ -1,0 +1,32 @@
+{
+  "name": "fotexnet-next-skeleton",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.1",
+    "antd": "^4.16.13",
+    "autoprefixer": "^10.3.6",
+    "axios": "^0.21.4",
+    "date-fns": "^2.24.0",
+    "next": "11.1.2",
+    "nextjs-progressbar": "^0.0.11",
+    "postcss": "^8.3.8",
+    "react": "17.0.2",
+    "react-cookie": "^4.1.1",
+    "react-dom": "17.0.2",
+    "tailwindcss": "^2.2.16"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0"
+  }
+}

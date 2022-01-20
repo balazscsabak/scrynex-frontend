@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~antd/dist/antd.css";
+
+@layer utilities {
+	.bg-primary {
+		background-color: #c9c9c9;
+	}
+	.text-primary {
+		color: #393939;
+	}
+}
+
+.ant-radio-button-wrapper-checked {
+	background-color: rgb(134, 125, 233);
+}
+
+.ant-radio-group-solid
+	.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+	background-color: rgb(134, 125, 233);
+}
